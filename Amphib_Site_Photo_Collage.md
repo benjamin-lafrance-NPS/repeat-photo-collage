@@ -9,15 +9,10 @@ must all be labeled with the following convention:
 Catchment-Site_pp_X_bearing_yyyymmdd.jpg An example file would be:
 Y4170-1_pp_a_080_20060627.jpg
 
-I would still like to do the following: - color coordinate the perimeter
-framing by wetness/dryness for the water year - leave gaps in the grid
-tiles for when an image wasn’t collected that year (rather than just a
-list of oldest to newest images with no gaps if a year was missed) -
-This script doesn’t generate photo point targets for legacy photos,
-instead it uses a list of photos from the most recent sampling year.
-Might be good to query all unique target photo points over the whole
-monitoring program, rather than just the most recent year targets. - The
-base directory is hard-coded, and will need to be edited
+I would still like to do the following: 
+     - color coordinate the perimeter framing by SWE for each year 
+     - leave gaps in the grid to show missing data
+     -The base directory is hard-coded, and will need to be edited
 
 ## R Markdown
 
